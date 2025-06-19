@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Luísa Sonza</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #1DB954;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #1DB954;
+        }
+
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin: 2rem 0;
+        }
+
+        .bio, .discography, .achievements, .contact {
+            margin-bottom: 3rem;
+        }
+
+        .bio p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .bio img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .discography ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .discography li {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .achievements ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .achievements li {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #1DB954;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Luísa Sonza</h1>
+        <p>Artista, cantora, compositora e uma das maiores influências da música brasileira contemporânea.</p>
+    </header>
+    <img src="luisa-sonza1522e2d9_vertical.jpg" alt="minha imagem">
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#bio">Biografia</a>
+        <a href="#discography">Discografia</a>
+        <a href="#achievements">Conquistas</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <!-- Seção de Biografia -->
+    <div id="bio" class="container bio">
+        <h2 class="section-title">Biografia</h2>
+        <p>Luísa Sonza, nascida em 18 de agosto de 1998, é uma das artistas mais inovadoras e influentes da cena musical brasileira atual. Nascida em Tuparendi, Rio Grande do Sul, Luísa iniciou sua carreira na música ainda jovem, conquistando o público com seu talento inato e sua voz poderosa. Ela ganhou destaque nas plataformas digitais e rapidamente se tornou uma das principais vozes do pop brasileiro.</p>
+        <img src="https://via.placeholder.com/1200x600" alt="Luísa Sonza" />
+    </div>
+
+    <!-- Seção de Discografia -->
+    <div id="discography" class="container discography">
+        <h2 class="section-title">Discografia</h2>
+        <ul>
+            <li><strong>2019:</strong> *"Pandora"*</li>
+            <li><strong>2020:</strong> *"Doce 22"*</li>
+            <li><strong>2021:</strong> *"Sei Lá" (Single)</li>
+            <li><strong>2022:</strong> *"Mundo da Lua" (Single)</li>
+        </ul>
+    </div>
+
+    <!-- Seção de Conquistas -->
+    <div id="achievements" class="container achievements">
+        <h2 class="section-title">Conquistas</h2>
+        <ul>
+            <li>Vencedora do prêmio *"Artista do Ano"* no MTV Europe Music Awards (2020)</li>
+            <li>Indicada ao Grammy Latino na categoria *"Melhor Álbum de Música Brasileira"* (2021)</li>
+            <li>Desembarcou no *Top 10* do Spotify Brasil com os singles "Anaconda" e "Braba"</li>
+            <li>Colaborou com grandes nomes da música internacional, como *Marshmello* e *Luiz Lins*.</li>
+        </ul>
+    </div>
+
+    <!-- Seção de Contato -->
+    <div id="contact" class="container contact">
+        <h2 class="section-title">Contato</h2>
+        <p>Para agendamentos, parcerias ou outras informações, entre em contato através do e-mail: <strong>contato@luizasonza.com</strong></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Luísa Sonza | Todos os direitos reservados</p>
+    </footer>
+    <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Luísa Sonza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portfólio de Luísa Sonza</h1>
+    </header>
+
+    <section class="cards-container">
+        <div class="card">
+            <img src="images.jpeg" alt="Luísa Sonza 1">
+            <div class="card-content">
+                <h3>Luísa Sonza - Single 1</h3>
+                <p>Descrição do single ou projeto da Luísa Sonza. Você pode adicionar informações sobre a música ou o vídeo aqui.</p>
+                <a href=download.jpeg" target="_blank" class="btn">Ouvir</a>
+            </div>
+        </div>
+
+        <!-- Adicione mais cards conforme necessário -->
+    </section>
+
+</body>
+</html>
